@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/js_100_Juliase4/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Project</title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- CSS -->
+  
+  <script type="module" crossorigin src="/js_100_Juliase4/commonHelpers.js"></script>
+  <link rel="modulepreload" crossorigin href="/js_100_Juliase4/assets/vendor-84cdfaf6.js">
+  <link rel="stylesheet" href="/js_100_Juliase4/assets/vendor-a776dd97.css">
+  <link rel="stylesheet" href="/js_100_Juliase4/assets/index-f7c1e522.css">
+</head>
+
+<body>
+  <header class="page-header" id="header">
+  <div class="container page-header-container">
+    <div class="logo-thumb">
+      <img class="logo" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAFAAUAMBIgACEQEDEQH/xAAyAAABBAMBAAAAAAAAAAAAAAAGAQIFBwAECAMBAAMBAQAAAAAAAAAAAAAAAAECAwQA/9oADAMBAAIQAxAAAAC/IJ2uCxnoBK5XD1QYQ0HmzTB48zQqDNmsfZHNbkrKzRuN4ea0Y2GgQnIQs7jfHN1Yd9qtYZBzUalNgKmnZtgWWV5bxGy1U04doUAqfdL1roGUjcOq78Upcd18aGat0olTWyU57COyOW6zDm5gPpjXcG4i8Uumvuowf//EADIQAAIBBAADBgQFBQEAAAAAAAECAwAEBREGEiEQEzFBUXEHIjJSFEJhksIVIDRTYnL/2gAIAQEAAT8AublbZNeLmpbiaU/O59vKjRq6yFpa9JZOvoKm4ksopFUxSEHwI5atb60vF3BKreo8x7jshu7iE/JIdeh6irC+W7B6crr4irmUzTu58z09h2GuMOJpMUEt7YAzOP21jZ728ulluA0kQlHP05tk0O+7yVwoWIjlUHoV9qykl1ZyxypMQ6N0dflYD9dVwrnnytvLHP8A5EJ0x+4evZZzmC5ikHkdH2Paa4uxbz5GOVR1IFYfHRWxjDRABiC59SPCr+0GmMUY2QetZO0mYNz7J6+NcB4+4hlu526RlAv92Wmh/E65Wd40G1H/AFvXjRzCWqobnE3yjf1iMSKP2E1f8b4xI3eBJZAhAba8mif/AFWS4lROWWWAoZU5kVh9QPmKwGZ/DYqKW4sLhYpZflkjUSKPLrrqKPaezLYw3LLLG5Qggvr8wTeh0pHR16gaI8KzeOhTv5pbbngZw+k1veguuuvSs3DZT2LSXHIlwvIIY+ulVfmAB0N786wMcs2Ks1aMLEH5z6nlOxRo9h7MzeiwxV9dFwpjgcqT92ulYfPY7M2qXFpKu9fPH+eNvQissx/DFhyll+kHw3WYF2bsLJcwluUFgoOgDVhbC0sbeD7EAPYaZ0RGd2Cqo2WJ0AKm454VhlaJsohI+xWYVf8AxWxMJK2djNP6M5CLXEPGeTzxWOXlitfKFPX1NQXV1Yzie1neKQeDIdGrDjmWVI4sid8p+oVjJDxLmStuV7tQpkckAgD0FN06dvxI4gmkuf6RA5EUQBn1+dqdSPempW2Cu/1Fb2OvjRqKWWF1kikZHU7DKSpHsRWP+IfFFkoQ3S3KDynXnrBfFGC5nSDLWyQcx0JoyeQe4NKyuqujBlYAgg7BBrjjGXON4jycU+yGmaRH+5JOq1K9MezfgabwpumqAoivhPnbufIJgZ+eSEgyRP8A6glcZ8GWvFNoBziG7h6RS/xas/wfxDgpWW8x03deUqKXj/cKPQ9gofQaPVqHiKw3B3EmcnC2ONlMZ8ZnHJEP1LGuB+CbLhKzk1IJr2YDv5/4JX//xAAgEQACAgMAAQUAAAAAAAAAAAABAgADEBESISAiMUFh/9oACAECAQE/AIx0I1rb+olnUBxdriFPbKVbob+MugdeTLNgfolGyTgLiytLB5ESoIPGN+n/xAAfEQACAgEFAQEAAAAAAAAAAAABAgADEQQQEiExICL/2gAIAQMBAT8AEVSxxFpXHYMsq4+b6cE2dDPUDfuahk4nHu9djVOGWVEcgR5NXxCqBsW7hJMqtes9GPc1hy22PgT/2Q==" srcset="data:image/jpeg;base64,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 2x" alt="logo" width="80"
+           height="80" />
+      <div class="logo-name">
+        <svg width="84" height="19" class="logo-name-icon">
+          <use href="/js_100_Juliase4/assets/sprite-54089a05.svg#icon-jeffer"></use>
+        </svg>
+      </div>
+    </div>
+
+    <nav class="page-nav">
+      <div class="page-dropdown-nav">
+        <button class="dropdown-nav-btn button">Menu</button>
+        <ul class="dropdown-nav-list visually-hidden list">
+          <li class="dropdown-nav-item">
+            <a href="#about" class="nav-menu-link link">About me</a>
+          </li>
+          <li class="dropdown-nav-item">
+            <a href="#benefits" class="nav-menu-link link">Benefits</a>
+          </li>
+          <li class="dropdown-nav-item">
+            <a href="#projects" class="nav-menu-link link">Projects</a>
+          </li>
+          <li class="dropdown-nav-item">
+            <a href="#faq" class="nav-menu-link link">FAQ</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <a href="#work-together" class="link page-header-btn-link">Order the project</a>
+
+    <button class="header-mobile-open-btn button" id="open-menu-button" type="button">
+      <svg class="header-open-icon" width="28" height="28">
+        <use href="/js_100_Juliase4/assets/sprite-54089a05.svg#icon-burger"></use>
+      </svg>
+    </button>
+
+  </div>
+</header>
+
+  <main>
+    <section class="hero-section section">
+  <div class="container">
+    <h1 class="hero-title">Hello. <br>I'm Fullstack developer Lloyd Jefferson.</h1>
+    <nav>
+      <ul class="ul-hero list">
+        <li>
+          <a class="btn-hero ig link" target="_blank" href="https://www.instagram.com/goitclub/">IG
+          </a>
+        </li>
+        <li>
+          <a class="btn-hero fb link" target="_blank" href="https://www.facebook.com/goITclub/">FB
+          </a>
+        </li>
+        <li>
+          <a class="btn-hero yt link" target="_blank" href="https://www.youtube.com/c/GoIT">YT
+          </a>
+        </li>
+        <li>
+          <a class="btn-hero gh link" target="_blank" href="https://github.com/Juliase4/portfolio-project-11">GH
+          </a>
+        </li>
+        <li>
+          <a class="btn-hero mailto link" href="mailto:lloydjefferson@gmail.com"
+             rel="noopener noreferrer">lloydjefferson@gmail.com
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</section>
+    <section class="about__section" id="about">
+  <div class="container">
+    <h2 class="about__title visually-hidden">About me</h2>
+    <div class="about-me">
+      <div class="thumb">
+        <h2 class="about-me__title">
+          I work with people all over the world to create impressive and
+          <span class="functional accent-color">functional</span>
+          <span class="websites">websites</span> that reflect each client's
+          unique personality.
+        </h2>
+      </div>
+
+      <div class="thumb__img">
+        <picture class="about-me__picture">
+          <source media="(max-width: 767px)" srcset="/js_100_Juliase4/assets/about_me-343@1x-a6761db9.jpg 1x, /js_100_Juliase4/assets/about_me-343@2x-3d4d552f.jpg 2x" />
+          <source media="(max-width: 1439px)" srcset="/js_100_Juliase4/assets/about_me-704@1x-1195c074.jpg 1x, /js_100_Juliase4/assets/about_me-704@2x-0c77bbb9.jpg 2x" />
+          <source media="(min-width: 1440px)" srcset="/js_100_Juliase4/assets/about_me-680@1x-f251011e.jpg 1x, /js_100_Juliase4/assets/about_me-680@2x-2b930508.jpg 2x" />
+          <img class="about-me__img" src="./img/desktop/about_me-680@1x.jpg," alt="about-me" />
+        </picture>
+      </div>
+    </div>
+
+    <ul class="list advantages"></ul>
+
+    <div class="skills__container">
+      <div class="my-swiper swiper">
+        <ul class="skills swiper-wrapper list">
+          <li class="skills__item swiper-slide">
+            <p class="skills__text">HTML/CSS</p>
+          </li>
+          <li class="skills__item swiper-slide">
+            <p class="skills__text">JavaScript</p>
+          </li>
+          <li class="skills__item swiper-slide">
+            <p class="skills__text">React</p>
+          </li>
+          <li class="skills__item swiper-slide">
+            <p class="skills__text">Node.js</p>
+          </li>
+          <li class="skills__item swiper-slide">
+            <p class="skills__text">React Native</p>
+          </li>
+          <li class="skills__item swiper-slide">
+            <p class="skills__text">Soft skills</p>
+          </li>
+          <li class="skills__item swiper-slide">
+            <p class="skills__text">Git</p>
+          </li>
+        </ul>
+
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+  </div>
+</section>
+    <section id="benefits" class="section">
+  <div class="container">
+    <h2 class="title">BENEFITS OF WORKING WITH ME</h2>
+    <div class="benefits-elemens">
+      <ul class="list benefits-list">
+        <li class="benefits-card">
+          <div class="benefits-icon">
+            <svg width="24" height="24" class="benefits-banges">
+              <use href="/js_100_Juliase4/assets/sprite-54089a05.svg#icon-user"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-title">Expertise</h3>
+          <p class="benefits-text">As a highly experienced developer, I have deep knowledge of programming and website
+            development.</p>
+        </li>
+        <li class="benefits-card">
+          <div class="benefits-icon">
+            <svg width="24" height="24" class="benefits-banges">
+              <use href="/js_100_Juliase4/assets/sprite-54089a05.svg#icon-message-chat-circle"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-title">Communication</h3>
+          <p class="benefits-text"> Understanding your needs and wants is my priority and I am always open to
+            discussions and corrections.</p>
+        </li>
+        <li class="benefits-card">
+          <div class="benefits-icon">
+            <svg width="24" height="24" class="benefits-banges">
+              <use href="/js_100_Juliase4/assets/sprite-54089a05.svg#icon-brush"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-title">Art</h3>
+          <p class="benefits-text">Thanks to my creative nature, I am ready to accept challenges and help you bring your
+            ideas to life. </p>
+        </li>
+        <li class="benefits-card">
+          <div class="benefits-icon">
+            <svg width="24" height="24" class="benefits-banges">
+              <use href="/js_100_Juliase4/assets/sprite-54089a05.svg#icon-hourglass"></use>
+            </svg>
+          </div>
+          <h3 class="benefits-title">Urgent execution</h3>
+          <p class="benefits-text">I understand how important time is to you. Ready to work quickly and efficiently,
+            without reducing the quality of work.</p>
+        </li>
+      </ul>
+      <a class="benefits-bt-text link" href="#work-together">Order the project</a>
+    </div>
+  </div>
+</section>
+    <section id="projects" class="section project">
+  <div class="container">
+    <h2 class="title">Projects</h2>
+    <div class="project-content swiper project-swiper" tabindex="0">
+      <div class="swiper-wrapper">
+        <div class="slide swiper-slide">
+          <div class="interior-style">
+            <picture class="project-picture">
+              <source media="(max-width: 767px)" srcset="/js_100_Juliase4/assets/proj-registration-bb814f8b.jpg 1x, /js_100_Juliase4/assets/proj-registration@2-91bd40fd.jpg 2x" />
+              <source media="(max-width: 1439px)" srcset="/js_100_Juliase4/assets/proj-registration-c87b44aa.jpg 1x, /js_100_Juliase4/assets/proj-registration@2-ca72e48f.jpg 2x" />
+              <source media="(min-width: 1440px)" srcset="/js_100_Juliase4/assets/proj-registration-d280f78d.jpg 1x, /js_100_Juliase4/assets/proj-registration@2-41d2e0e5.jpg 2x" />
+              <img class="project-img" src="/js_100_Juliase4/assets/proj-registration-d280f78d.jpg" alt="registration" />
+            </picture>
+            <div class="filling-slide">
+              <ul class="list-style list">
+                <li class="project-li-style">#react</li>
+                <li class="project-li-style">#js</li>
+                <li class="project-li-style">#nodejs</li>
+                <li class="project-li-style">#git</li>
+              </ul>
+              <h2 class="slide-description">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </h2>
+              <a href="https://github.com/Juliase4/portfolio-project-11" class="project-button-link project-button link"
+                 target="_blank">See project</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <div class="interior-style">
+            <picture class="project-picture">
+              <source media="(max-width: 767px)" srcset="/js_100_Juliase4/assets/proj-main-23d9aff9.jpg 1x, /js_100_Juliase4/assets/proj-main@2-9e619840.jpg 2x" />
+              <source media="(max-width: 1439px)" srcset="/js_100_Juliase4/assets/proj-main-53cf6ee9.jpg 1x, /js_100_Juliase4/assets/proj-main@2-c5218006.jpg 2x" />
+              <source media="(min-width: 1440px)" srcset="/js_100_Juliase4/assets/proj-main-53cf6ee9.jpg 1x, /js_100_Juliase4/assets/proj-main@2-c5218006.jpg 2x" />
+              <img class="project-img" src="/js_100_Juliase4/assets/proj-main-53cf6ee9.jpg" alt="main" />
+            </picture>
+            <div class="filling-slide">
+              <ul class="list-style list">
+                <li class="project-li-style">#react</li>
+                <li class="project-li-style">#js</li>
+                <li class="project-li-style">#nodejs</li>
+                <li class="project-li-style">#git</li>
+              </ul>
+              <h2 class="slide-description">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </h2>
+              <a href="https://github.com/Juliase4/portfolio-project-11" class="project-button-link project-button link"
+                 target="_blank">See project</a>
+            </div>
+          </div>
+        </div>
+        <div class="slide swiper-slide">
+          <div class="interior-style">
+            <picture class="project-picture">
+              <source media="(max-width: 767px)" srcset="/js_100_Juliase4/assets/proj-register-1d941a87.jpg 1x, /js_100_Juliase4/assets/proj-register@2-7fedd50e.jpg 2x" />
+              <source media="(max-width: 1439px)" srcset="/js_100_Juliase4/assets/proj-register-5f974d56.jpg 1x, /js_100_Juliase4/assets/proj-register@2-0c7db43a.jpg 2x" />
+              <source media="(min-width: 1440px)" srcset="/js_100_Juliase4/assets/proj-register-5f974d56.jpg 1x, /js_100_Juliase4/assets/proj-register@2-0c7db43a.jpg 2x" />
+              <img class="project-img" src="/js_100_Juliase4/assets/proj-register-5f974d56.jpg" alt="register" />
+            </picture>
+            <div class="filling-slide">
+              <ul class="list-style list">
+                <li class="project-li-style">#react</li>
+                <li class="project-li-style">#js</li>
+                <li class="project-li-style">#nodejs</li>
+                <li class="project-li-style">#git</li>
+              </ul>
+              <h2 class="slide-description">
+                Programming Across Borders: Ideas, Technologies, Innovations
+              </h2>
+              <a href="https://github.com/Juliase4/portfolio-project-11" class="project-button-link project-button link"
+                 target="_blank">See project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="project-btns">
+        <button class="swiper-button-prev">
+          <svg class="reviews-slider-arrow-icon" width="24" height="24">
+            <use href='/js_100_Juliase4/assets/sprite-54089a05.svg#icon-arrow-left'></use>
+          </svg>
+        </button>
+        <button class="swiper-button-next">
+          <svg class="reviews-slider-arrow-icon" width="24" height="24">
+            <use href='/js_100_Juliase4/assets/sprite-54089a05.svg#icon-arrow-right'></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="faq-section section" id="faq">
+  <div class="container">
+    <h2 class="title">FAQ</h2>
+    <ul class="faq-list list"></ul>
+  </div>
+</section>
+    <section class="covers-section section">
+  <div class="covers-container container">
+    <h2 class="visually-hidden title">Gallery</h2>
+    <div class="covers">
+      <ul class="covers-list list">
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-7-min-d20414c1.jpg"
+               srcset="/js_100_Juliase4/assets/covers-7-min-d20414c1.jpg 1x, /js_100_Juliase4/assets/covers-7@2x-min-8e00257b.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-5-min-86041c09.jpg"
+               srcset="/js_100_Juliase4/assets/covers-5-min-86041c09.jpg 1x, /js_100_Juliase4/assets/covers-5@2x-min-3eff6458.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-9-min-ec51cb04.jpg"
+               srcset="/js_100_Juliase4/assets/covers-9-min-ec51cb04.jpg 1x, /js_100_Juliase4/assets/covers-9@2x-min-fd9283b6.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-2-min-18039d61.jpg"
+               srcset="/js_100_Juliase4/assets/covers-2-min-18039d61.jpg 1x, /js_100_Juliase4/assets/covers-2@2x-min-7dda3ca6.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-6-min-d5a6e827.jpg"
+               srcset="/js_100_Juliase4/assets/covers-6-min-d5a6e827.jpg 1x, /js_100_Juliase4/assets/covers-6@2x-min-849fe1cc.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-3-min-3a9dd024.jpg"
+               srcset="/js_100_Juliase4/assets/covers-3-min-3a9dd024.jpg 1x, /js_100_Juliase4/assets/covers-3@2x-min-483e2564.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-1-min-dc5a1c34.jpg"
+               srcset="/js_100_Juliase4/assets/covers-1-min-dc5a1c34.jpg 1x, /js_100_Juliase4/assets/covers-1@2x-min-bb1bfa17.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-4-min-0d29f8e7.jpg"
+               srcset="/js_100_Juliase4/assets/covers-4-min-0d29f8e7.jpg 1x, /js_100_Juliase4/assets/covers-4@2x-min-fd1a619e.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-8-min-0db2fa14.jpg"
+               srcset="/js_100_Juliase4/assets/covers-8-min-0db2fa14.jpg 1x, /js_100_Juliase4/assets/covers-8@2x-min-04a3f223.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-10-min-5b96ea05.jpg"
+               srcset="/js_100_Juliase4/assets/covers-10-min-5b96ea05.jpg 1x, /js_100_Juliase4/assets/covers-10@2x-min-e30e9a9e.jpg 2x" class="covers-img"
+               alt="">
+        </li>
+      </ul>
+
+      <ul class="covers-list list">
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-1-min-dc5a1c34.jpg"
+               srcset="/js_100_Juliase4/assets/covers-1-min-dc5a1c34.jpg 1x, /js_100_Juliase4/assets/covers-1@2x-min-bb1bfa17.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-8-min-0db2fa14.jpg"
+               srcset="/js_100_Juliase4/assets/covers-8-min-0db2fa14.jpg 1x, /js_100_Juliase4/assets/covers-8@2x-min-04a3f223.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-4-min-0d29f8e7.jpg"
+               srcset="/js_100_Juliase4/assets/covers-4-min-0d29f8e7.jpg 1x, /js_100_Juliase4/assets/covers-4@2x-min-fd1a619e.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-9-min-ec51cb04.jpg"
+               srcset="/js_100_Juliase4/assets/covers-9-min-ec51cb04.jpg 1x, /js_100_Juliase4/assets/covers-9@2x-min-fd9283b6.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-2-min-18039d61.jpg"
+               srcset="/js_100_Juliase4/assets/covers-2-min-18039d61.jpg 1x, /js_100_Juliase4/assets/covers-2@2x-min-7dda3ca6.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-6-min-d5a6e827.jpg"
+               srcset="/js_100_Juliase4/assets/covers-6-min-d5a6e827.jpg 1x, /js_100_Juliase4/assets/covers-6@2x-min-849fe1cc.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-10-min-5b96ea05.jpg"
+               srcset="/js_100_Juliase4/assets/covers-10-min-5b96ea05.jpg 1x, /js_100_Juliase4/assets/covers-10@2x-min-e30e9a9e.jpg 2x" class="covers-img"
+               alt="">
+        </li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-3-min-3a9dd024.jpg"
+               srcset="/js_100_Juliase4/assets/covers-3-min-3a9dd024.jpg 1x, /js_100_Juliase4/assets/covers-3@2x-min-483e2564.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-7-min-d20414c1.jpg"
+               srcset="/js_100_Juliase4/assets/covers-7-min-d20414c1.jpg 1x, /js_100_Juliase4/assets/covers-7@2x-min-8e00257b.jpg 2x" class="covers-img"
+               alt=""></li>
+        <li class="covers-item"><img src="/js_100_Juliase4/assets/covers-5-min-86041c09.jpg"
+               srcset="/js_100_Juliase4/assets/covers-5-min-86041c09.jpg 1x, /js_100_Juliase4/assets/covers-5@2x-min-3eff6458.jpg 2x" class="covers-img"
+               alt=""></li>
+      </ul>
+
+      <ul class="covers-list list">
+        <li class="covers-item"><img srcset="/js_100_Juliase4/assets/covers-6-min-d5a6e827.jpg 1x, /js_100_Juliase4/assets/covers-6@2x-min-849fe1cc.jpg 2x"
+               src="/js_100_Juliase4/assets/covers-6-min-d5a6e827.jpg" class="covers-img" alt=""></li>
+        <li class="covers-item"><img srcset="/js_100_Juliase4/assets/covers-2-min-18039d61.jpg 1x, /js_100_Juliase4/assets/covers-2@2x-min-7dda3ca6.jpg 2x"
+               src="/js_100_Juliase4/assets/covers-2-min-18039d61.jpg" class="covers-img" alt=""></li>
+        <li class="covers-item"><img srcset="/js_100_Juliase4/assets/covers-3-min-3a9dd024.jpg 1x, /js_100_Juliase4/assets/covers-3@2x-min-483e2564.jpg 2x"
+               src="/js_100_Juliase4/assets/covers-3-min-3a9dd024.jpg" class="covers-img" alt=""></li>
+        <li class="covers-item"><img srcset="/js_100_Juliase4/assets/covers-5-min-86041c09.jpg 1x, /js_100_Juliase4/assets/covers-5@2x-min-3eff6458.jpg 2x"
+               src="/js_100_Juliase4/assets/covers-5-min-86041c09.jpg" class="covers-img" alt=""></li>
+        <li class="covers-item"><img srcset="/js_100_Juliase4/assets/covers-7-min-d20414c1.jpg 1x, /js_100_Juliase4/assets/covers-7@2x-min-8e00257b.jpg 2x"
+               src="/js_100_Juliase4/assets/covers-7-min-d20414c1.jpg" class="covers-img" alt=""></li>
+        <li class="covers-item"><img srcset="/js_100_Juliase4/assets/covers-1-min-dc5a1c34.jpg 1x, /js_100_Juliase4/assets/covers-1@2x-min-bb1bfa17.jpg 2x"
+               src="/js_100_Juliase4/assets/covers-1-min-dc5a1c34.jpg" class="covers-img" alt=""></li>
+        <li class="covers-item"><img srcset="/js_100_Juliase4/assets/covers-8-min-0db2fa14.jpg 1x, /js_100_Juliase4/assets/covers-8@2x-min-04a3f223.jpg 2x"
+               src="/js_100_Juliase4/assets/covers-8-min-0db2fa14.jpg" class="covers-img" alt=""></li>
+        <li class="covers-item"><img srcset="/js_100_Juliase4/assets/covers-4-min-0d29f8e7.jpg 1x, /js_100_Juliase4/assets/covers-4@2x-min-fd1a619e.jpg 2x"
+               src="/js_100_Juliase4/assets/covers-4-min-0d29f8e7.jpg" class="covers-img" alt=""></li>
+        <li class="covers-item"><img srcset="/js_100_Juliase4/assets/covers-10-min-5b96ea05.jpg 1x, /js_100_Juliase4/assets/covers-10@2x-min-e30e9a9e.jpg 2x"
+               src="/js_100_Juliase4/assets/covers-10-min-5b96ea05.jpg" class="covers-img" alt=""></li>
+        <li class="covers-item"><img srcset="/js_100_Juliase4/assets/covers-9-min-ec51cb04.jpg 1x, /js_100_Juliase4/assets/covers-9@2x-min-fd9283b6.jpg 2x"
+               src="/js_100_Juliase4/assets/covers-9-min-ec51cb04.jpg" class="covers-img" alt=""></li>
+      </ul>
+
+    </div>
+  </div>
+</section>
+    <section class="reviews section">
+  <div class="container">
+    <h2 class="title">Reviews</h2>
+    <div class="reviews-cards swiper reviews-slider">
+      <ul class="reviews-list list swiper-wrapper">
+      </ul>
+    </div>
+    <div class="reviews-slider-btn">
+      <button class="reviews-slider-arrow swiper-button-prev" type="button">
+        <svg class="reviews-slider-arrow-icon" width="24" height="24">
+          <use href='/js_100_Juliase4/assets/sprite-54089a05.svg#icon-arrow-left'></use>
+        </svg>
+      </button>
+      <button class="reviews-slider-arrow swiper-button-next" type="button">
+        <svg class="reviews-slider-arrow-icon" width="24" height="24">
+          <use href='/js_100_Juliase4/assets/sprite-54089a05.svg#icon-arrow-right'></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <section class="work-section" id="work-together">
+  <div class="container">
+    <div class="work-div">
+      <img class="img-together" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIAFAAUAMBIgACEQEDEQH/xAAyAAABBAMBAAAAAAAAAAAAAAAGAQIFBwAECAMBAAMBAQAAAAAAAAAAAAAAAAECAwQA/9oADAMBAAIQAxAAAAC/IJ2uCxnoBK5XD1QYQ0HmzTB48zQqDNmsfZHNbkrKzRuN4ea0Y2GgQnIQs7jfHN1Yd9qtYZBzUalNgKmnZtgWWV5bxGy1U04doUAqfdL1roGUjcOq78Upcd18aGat0olTWyU57COyOW6zDm5gPpjXcG4i8Uumvuowf//EADIQAAIBBAADBgQFBQEAAAAAAAECAwAEBREGEiEQEzFBUXEHIjJSFEJhksIVIDRTYnL/2gAIAQEAAT8AublbZNeLmpbiaU/O59vKjRq6yFpa9JZOvoKm4ksopFUxSEHwI5atb60vF3BKreo8x7jshu7iE/JIdeh6irC+W7B6crr4irmUzTu58z09h2GuMOJpMUEt7YAzOP21jZ728ulluA0kQlHP05tk0O+7yVwoWIjlUHoV9qykl1ZyxypMQ6N0dflYD9dVwrnnytvLHP8A5EJ0x+4evZZzmC5ikHkdH2Paa4uxbz5GOVR1IFYfHRWxjDRABiC59SPCr+0GmMUY2QetZO0mYNz7J6+NcB4+4hlu526RlAv92Wmh/E65Wd40G1H/AFvXjRzCWqobnE3yjf1iMSKP2E1f8b4xI3eBJZAhAba8mif/AFWS4lROWWWAoZU5kVh9QPmKwGZ/DYqKW4sLhYpZflkjUSKPLrrqKPaezLYw3LLLG5Qggvr8wTeh0pHR16gaI8KzeOhTv5pbbngZw+k1veguuuvSs3DZT2LSXHIlwvIIY+ulVfmAB0N786wMcs2Ks1aMLEH5z6nlOxRo9h7MzeiwxV9dFwpjgcqT92ulYfPY7M2qXFpKu9fPH+eNvQissx/DFhyll+kHw3WYF2bsLJcwluUFgoOgDVhbC0sbeD7EAPYaZ0RGd2Cqo2WJ0AKm454VhlaJsohI+xWYVf8AxWxMJK2djNP6M5CLXEPGeTzxWOXlitfKFPX1NQXV1Yzie1neKQeDIdGrDjmWVI4sid8p+oVjJDxLmStuV7tQpkckAgD0FN06dvxI4gmkuf6RA5EUQBn1+dqdSPempW2Cu/1Fb2OvjRqKWWF1kikZHU7DKSpHsRWP+IfFFkoQ3S3KDynXnrBfFGC5nSDLWyQcx0JoyeQe4NKyuqujBlYAgg7BBrjjGXON4jycU+yGmaRH+5JOq1K9MezfgabwpumqAoivhPnbufIJgZ+eSEgyRP8A6glcZ8GWvFNoBziG7h6RS/xas/wfxDgpWW8x03deUqKXj/cKPQ9gofQaPVqHiKw3B3EmcnC2ONlMZ8ZnHJEP1LGuB+CbLhKzk1IJr2YDv5/4JX//xAAgEQACAgMAAQUAAAAAAAAAAAABAgADEBESISAiMUFh/9oACAECAQE/AIx0I1rb+olnUBxdriFPbKVbob+MugdeTLNgfolGyTgLiytLB5ESoIPGN+n/xAAfEQACAgEFAQEAAAAAAAAAAAABAgADEQQQEiExICL/2gAIAQMBAT8AEVSxxFpXHYMsq4+b6cE2dDPUDfuahk4nHu9djVOGWVEcgR5NXxCqBsW7hJMqtes9GPc1hy22PgT/2Q==" srcset="data:image/jpeg;base64,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 2x" alt="logo"
+           width="44" height="44" />
+      <h2 class="work-together-text">LET'S <span class="accent-color">WORK</span></h2>
+    </div>
+    <h2 class="together">TOGETHER</h2>
+    <div class="div-contact">
+      <form class="work-form">
+
+        <div class="second-test">
+          <input class="work-input" type="email" name="email" id="email" placeholder="clients@gmail.com">
+          <span class="error-message" style="display:none;">Invalid email, try again</span>
+          <div id="successMessage" class="success-message" style="display: none;">Success!</div>
+        </div>
+
+        <div class="wrapper-comment">
+          <input class="work-input" type="text" id="form-text" placeholder="comments">
+        </div>
+        <button class="submit-button" id="btn-submit" type="submit">Send</button>
+      </form>
+      <address class="work-address">
+        <ul class="work-address-list list">
+          <li class="work-address-item">
+            <a href="mailto:lloydjefferson@gmail.com" class="mail-link link"
+               rel="noopener noreferrer">lloydjefferson@gmail.com</a>
+          </li>
+          <li class="work-address-item">
+            <a href="tel:+3801111111111" class="phone-number link" rel="noopener noreferrer">+380 11 1111 11 11</a>
+          </li>
+        </ul>
+      </address>
+    </div>
+  </div>
+</section>
+
+<div class="btn-up btn-up_hide"></div>
+  <div class="mobile-menu">
+  <div class="container mobile-menu-container">
+    <button class="mobile-menu-close-btn" type="button">
+      <svg class="mobile-menu-close-btn-icon" width="28" height="28">
+        <use href='/js_100_Juliase4/assets/sprite-54089a05.svg#icon-close'></use>
+      </svg>
+    </button>
+    <nav class="mob-menu-nav">
+      <ul class="mob-menu-list list">
+        <li class="mob-menu-list-item">
+          <a class="mob-menu-list-link link" href="#about">About me</a>
+        </li>
+        <li class="mob-menu-list-item">
+          <a class="mob-menu-list-link link" href="#benefits">Benefits</a>
+        </li>
+        <li class="mob-menu-list-item">
+          <a class="mob-menu-list-link link" href="#projects">Projects</a>
+        </li>
+        <li class="mob-menu-list-item">
+          <a class="mob-menu-list-link link" href="#faq">FAQ</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="mob-btn-wrapper">
+      <a class="mob-button-link link" href="#work-together">Order the project</a>
+    </div>
+  </div>
+</div>
+  <div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="modal-title"></h2>
+    <p id="modal-message"></p>
+  </div>
+</div>
+
+
+  
+
+</body>
+
+</html>
